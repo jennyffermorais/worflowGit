@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    156deg,
+    darkmagenta 0,
+    darkmagenta 45%,
+    blueviolet 30%
+  );
+  font-family: "Roboto", sans-serif;
+  background-repeat: no-repeat;
+}
+
+.titulos {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0 40px 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parteUm,
+.parteDois {
+  width: 400px;
+  height: 400px;
+  background-color: violet;
+  margin: 10px;
+  color: darkmagenta;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
